@@ -46,19 +46,19 @@ button:active {
 /*Background colors (hover and normal)*/
 .wc-blue,
 .wc-hover-blue:hover {
-  background-color: Blue!important;
+  background-color: #00f!important;
   color: #fff!important
 }
 
 .wc-red,
 .wc-hover-red:hover {
-  background-color: Red!important;
+  background-color: #f00!important;
   color: #000!important
 }
 
 .wc-green,
 .wc-hover-green:hover {
-  background-color: Green!important;
+  background-color: #008000!important;
   color: #fff!important
 }
 
@@ -70,7 +70,7 @@ button:active {
 
 .wc-orange,
 .wc-hover-orange:hover {
-  background-color: orange!important;
+  background-color: #ffa500!important;
   color: #000!important
 }
 
@@ -88,13 +88,13 @@ button:active {
 
 .wc-aqua,
 .wc-hover-aqua:hover {
-  background-color: aqua!important;
+  background-color: #0ff!important;
   color: #000!important
 }
 
 .wc-greenapple,
 .wc-hover-greenapple:hover {
-  background-color: lime!important;
+  background-color: #00ff00!important;
   color: #000!important
 }
 
@@ -106,7 +106,7 @@ button:active {
 
 .wc-purple,
 .wc-hover-purple:hover {
-  background-color: purple!important;
+  background-color: #800080!important;
   color: #fff!important
 }
 
@@ -132,30 +132,30 @@ button:active {
 .wc-gray,
 .wc-hover-grey:hover,
 .wc-hover-gray:hover {
-  background-color: grey!important;
+  background-color: #808080!important;
   color: #fff!important
 }
 
 .wc-silver,
 .wc-hover-silver:hover {
-  background-color: silver!important;
+  background-color: #c0c0c0!important;
   color: #000!important
 }
 
 /*Text color (hover and normal)*/
 .wc-text-blue,
 .wc-hover-text-blue:hover {
-  color: Blue!important
+  color: #00f!important
 }
 
 .wc-text-red,
 .wc-hover-text-red:hover {
-  color: Red!important
+  color: #f00!important
 }
 
 .wc-text-green,
 .wc-hover-text-green:hover {
-  color: Green!important
+  color: #008000!important
 }
 
 .wc-text-yellow,
@@ -165,7 +165,7 @@ button:active {
 
 .wc-text-orange,
 .wc-hover-text-orange:hover {
-  color: orange!important
+  color: #ffa500!important
 }
 
 .wc-text-pink,
@@ -180,12 +180,12 @@ button:active {
 
 .wc-text-aqua,
 .wc-hover-text-aqua:hover {
-  color: aqua!important
+  color: #0ff!important
 }
 
 .wc-text-greenapple,
 .wc-hover-text-greenapple:hover {
-  color: lime!important
+  color: #0f0!important
 }
 
 .wc-text-indigo,
@@ -195,7 +195,7 @@ button:active {
 
 .wc-text-purple,
 .wc-hover-text-purple:hover {
-  color: purple!important
+  color: #800080!important
 }
 
 .wc-text-tan,
@@ -217,12 +217,12 @@ button:active {
 .wc-text-gray,
 .wc-hover-text-grey:hover,
 .wc-hover-text-gray:hover {
-  color: grey!important
+  color: #808080!important
 }
 
 .wc-text-silver,
 .wc-hover-text-silver:hover {
-  color: silver!important
+  color: #c0c0c0!important
 }
 
 /*Should override color*/
@@ -454,17 +454,17 @@ a {
 /*Border colors*/
 .wc-border-blue,
 .wc-hover-border-blue:hover {
-  border-color: Blue!important
+  border-color: #00f!important
 }
 
 .wc-border-red,
 .wc-hover-border-red:hover {
-  border-color: Red!important
+  border-color: #f00!important
 }
 
 .wc-border-green,
 .wc-hover-border-green:hover {
-  border-color: Green!important
+  border-color: #008000!important
 }
 
 .wc-border-yellow,
@@ -474,7 +474,7 @@ a {
 
 .wc-border-orange,
 .wc-hover-border-orange:hover {
-  border-color: orange!important
+  border-color: #ffa500!important
 }
 
 .wc-border-pink,
@@ -489,12 +489,12 @@ a {
 
 .wc-border-aqua,
 .wc-hover-border-aqua:hover {
-  border-color: aqua!important
+  border-color: #0ff!important
 }
 
 .wc-border-greenapple,
 .wc-hover-border-greenapple:hover {
-  border-color: lime!important
+  border-color: #0f0!important
 }
 
 .wc-border-indigo,
@@ -504,7 +504,7 @@ a {
 
 .wc-border-purple,
 .wc-hover-border-purple:hover {
-  border-color: purple!important
+  border-color: #800080!important
 }
 
 .wc-border-tan,
@@ -526,10 +526,10 @@ a {
 .wc-border-gray,
 .wc-hover-border-grey:hover,
 .wc-hover-border-gray:hover {
-  border-color: grey!important
+  border-color: #808080!important
 }
 
 .wc-border-silver,
 .wc-hover-border-silver:hover {
-  border-color: silver!important
+  border-color: #c0c0c0!important
 }
