@@ -1,0 +1,1 @@
+Contributing is welcomed from anyone. You may not however, through either this or any derivative works attain profit. If you use a private modified version on your website, please give attribution to <https://wizard.duti.site>
