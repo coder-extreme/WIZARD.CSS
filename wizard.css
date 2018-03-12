@@ -140,7 +140,8 @@ a {
 }
 
 .wc-silver,
-.wc-hover-silver:hover {
+.wc-hover-silver:hover,
+th {
   background-color: #c0c0c0!important;
   color: #000!important
 }
@@ -358,11 +359,11 @@ a {
 }
 
 .wc-width-full {
-  width: 49.99999%
+  width: 50%
 }
 
 .wc-width-half {
-  width: 49.99999%
+  width: 45%
 }
 
 .wc-width-third {
@@ -374,14 +375,15 @@ a {
 }
 
 .wc-width-quarter {
-  width: 24.99999%
+  width: 25%
 }
 
 .wc-width-three-quarter {
-  width: 74.99999%
+  width: 75%
 }
 
 /*Responsive height*/
+.wc-col-whole,
 .wc-col-half,
 .wc-col-third,
 .wc-col-two-third,
@@ -390,8 +392,12 @@ a {
   float: left;
 }
 
+.wc-col-whole {
+  height: 100%
+}
+
 .wc-col-half {
-  height: 49.99999%
+  height: 50%
 }
 
 .wc-col-third {
@@ -403,11 +409,11 @@ a {
 }
 
 .wc-col-quarter {
-  height: 24.99999%
+  height: 25%
 }
 
 .wc-col-three-quarter {
-  height: 74.99999%
+  height: 75%
 }
 
 /*Border positions*/
