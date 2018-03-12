@@ -589,3 +589,24 @@ th, {
 .wc-hover-border-silver:hover {
   border-color: #c0c0c0!important
 }
+
+/*Cursors*/
+.wc-cursor {
+  cursor: default
+}
+
+.wc-cursor-pointer {
+  cursor: pointer
+}
+
+.wc-cursor-crosshair {
+  cursor: crosshair
+}
+
+.wc-cursor-deny {
+  cursor: not-allowed
+}
+
+.wc-cursor-loading {
+  cursor: wait
+}
