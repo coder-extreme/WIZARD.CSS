@@ -28,22 +28,8 @@ th {
   padding: 5px
 }
 
-th {
-  background-color: #808080
-}
-
 button {
-  border: 1px solid #000;
-  border-radius: 1px;
-  cursor: pointer
-}
-
-button:active {
-  background-color: #00ffef
-}
-
-a {
-  color: #00008b
+  border-radius: 1px
 }
 
 /*Background colors (hover and normal)*/
@@ -90,7 +76,8 @@ a {
 }
 
 .wc-aqua,
-.wc-hover-aqua:hover {
+.wc-hover-aqua:hover,
+button:active {
   background-color: #0ff!important;
   color: #000!important
 }
@@ -134,20 +121,23 @@ a {
 .wc-grey,
 .wc-gray,
 .wc-hover-grey:hover,
-.wc-hover-gray:hover {
+.wc-hover-gray:hover,
+th {
   background-color: #808080!important;
   color: #fff!important
 }
 
 .wc-silver,
-.wc-hover-silver:hover {
+.wc-hover-silver:hover,
+th {
   background-color: #c0c0c0!important;
   color: #000!important
 }
 
 /*Text color (hover and normal)*/
 .wc-text-blue,
-.wc-hover-text-blue:hover {
+.wc-hover-text-blue:hover,
+a {
   color: #00f!important
 }
 
@@ -358,11 +348,11 @@ a {
 }
 
 .wc-width-full {
-  width: 49.99999%
+  width: 50%
 }
 
 .wc-width-half {
-  width: 49.99999%
+  width: 45%
 }
 
 .wc-width-third {
@@ -374,14 +364,15 @@ a {
 }
 
 .wc-width-quarter {
-  width: 24.99999%
+  width: 25%
 }
 
 .wc-width-three-quarter {
-  width: 74.99999%
+  width: 75%
 }
 
 /*Responsive height*/
+.wc-col-whole,
 .wc-col-half,
 .wc-col-third,
 .wc-col-two-third,
@@ -390,8 +381,12 @@ a {
   float: left;
 }
 
+.wc-col-whole {
+  height: 100%
+}
+
 .wc-col-half {
-  height: 49.99999%
+  height: 50%
 }
 
 .wc-col-third {
@@ -403,15 +398,18 @@ a {
 }
 
 .wc-col-quarter {
-  height: 24.99999%
+  height: 25%
 }
 
 .wc-col-three-quarter {
-  height: 74.99999%
+  height: 75%
 }
 
 /*Border positions*/
-.wc-border, td, th {
+.wc-border,
+button,
+td,
+th, {
   border: 1px solid #000!important
 }
 
@@ -589,4 +587,102 @@ a {
 .wc-border-silver,
 .wc-hover-border-silver:hover {
   border-color: #c0c0c0!important
+}
+
+/*Cursors*/
+.wc-cursor {
+  cursor: default!important
+}
+
+.wc-cursor-pointer,
+button {
+  cursor: pointer!important
+}
+
+.wc-cursor-crosshair {
+  cursor: crosshair!important
+}
+
+.wc-cursor-deny {
+  cursor: not-allowed!important
+}
+
+.wc-cursor-wait {
+  cursor: wait!important
+}
+
+.wc-cursor-text {
+  cursor: text!important
+}
+
+.wc-cursor-progress {
+  cursor: progress!important
+}
+
+.wc-cursor-none {
+  cursor: none!important
+}
+
+.wc-cursor-zoom-in {
+  cursor: zoom-in!important
+}
+
+.wc-cursor-zoom-out {
+  cursor: zoom-out!important
+}
+
+.wc-cursor-help {
+  cursor: help!important
+}
+
+.wc-cursor-alias {
+  cursor: alias!important
+}
+
+.wc-cursor-scroll {
+  cursor: all-scroll!important
+}
+
+.wc-cursor-auto {
+  cursor: auto!important
+}
+
+.wc-cursor-cell {
+  cursor: cell!important
+}
+
+.wc-cursor-resize-col {
+  cursor: col-resize!important
+}
+
+.wc-cursor-copy {
+  cursor: copy!important
+}
+
+.wc-cursor-resize-horizontal {
+  cursor: e-resize!important
+}
+
+.wc-cursor-resize-vertical {
+  cursor: n-resize!important
+}
+
+.wc-cursor-resize-diagonal-right {
+  cursor: ne-resize!important
+}
+
+.wc-cursor-resize-diagonal-left {
+  cursor: nw-resize!important
+}
+
+.wc-cursor-move {
+  cursor: move!important
+}
+
+.wc-cursor-resize-row {
+  cursor: move!important
+}
+
+.wc-cursor-text-vertical {
+  cursor: vertical-text!important
 }
