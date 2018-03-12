@@ -416,7 +416,7 @@ a {
   height: 74.99999%
 }
 
-/*Border styles*/
+/*Border positions*/
 .wc-border {
   border: 1px solid #000!important
 }
@@ -455,6 +455,59 @@ a {
 
 .wc-border-right-thick {
   border-right: 5px solid #000!important
+}
+
+/*Border styles*/
+.wc-border-dashed {
+  border-style: dashed!important
+}
+
+.wc-border-dotted {
+  border-style: dotted!important
+}
+
+.wc-border-ridge {
+  border-style: ridge!important
+}
+
+.wc-border-solid {
+  border-style: solid!important
+}
+
+.wc-border-groove {
+  border-style: groove!important
+}
+
+.wc-border-inherit {
+  border-style: inherit!important
+}
+
+.wc-border-dashed {
+  border-style: dashed!important
+}
+
+.wc-border-outset {
+  border-style: outset!important
+}
+
+.wc-border-double {
+  border-style: double!important
+}
+
+.wc-border-inset {
+  border-style: inset!important
+}
+
+.wc-border-hidden {
+  border-style: hidden!important
+}
+
+.wc-border-none {
+  border-style: none!important
+}
+
+.wc-border-initial {
+  border-style: initial!important
 }
 
 /*Border colors*/
