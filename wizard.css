@@ -634,3 +634,51 @@ th, {
 .wc-cursor-help {
   cursor: help!important
 }
+
+.wc-cursor-alias {
+  cursor: alias!important
+}
+
+.wc-cursor-scroll {
+  cursor: all-scroll!important
+}
+
+.wc-cursor-auto {
+  cursor: auto!important
+}
+
+.wc-cursor-cell {
+  cursor: cell!important
+}
+
+.wc-cursor-col-resize {
+  cursor: col-resize!important
+}
+
+.wc-cursor-copy {
+  cursor: copy!important
+}
+
+.wc-cursor-resize-horizontal {
+  cursor: e-resize!important
+}
+
+.wc-cursor-resize-vertical {
+  cursor: n-resize!important
+}
+
+.wc-cursor-resize-diagonal-right {
+  cursor: ne-resize!important
+}
+
+.wc-cursor-resize-diagonal-left {
+  cursor: nw-resize!important
+}
+
+.wc-cursor-move {
+  cursor: move!important
+}
+
+.wc-cursor-move {
+  cursor: move!important
+}
