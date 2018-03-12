@@ -29,8 +29,7 @@ th {
 }
 
 button {
-  border-radius: 1px;
-  cursor: pointer
+  border-radius: 1px
 }
 
 /*Background colors (hover and normal)*/
@@ -595,7 +594,8 @@ th, {
   cursor: default!important
 }
 
-.wc-cursor-pointer {
+.wc-cursor-pointer,
+button {
   cursor: pointer!important
 }
 
@@ -673,10 +673,6 @@ th, {
 
 .wc-cursor-resize-diagonal-left {
   cursor: nw-resize!important
-}
-
-.wc-cursor-move {
-  cursor: move!important
 }
 
 .wc-cursor-move {
