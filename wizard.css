@@ -12,25 +12,24 @@ Permission is granted to use this file for any non-commercial purposes as long a
 }
 
 /*Default overridable*/
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: main;
   color: #000;
-}
-
-table {
-  border: 1px solid #000;
-  border-collapse: collapse
+  font-size: 1.1em
 }
 
 td,
 th {
-  border: 1px solid #000;
   padding: 5px
 }
 
 th {
-  background-color: gray
+  background-color: #808080
 }
 
 button {
@@ -41,6 +40,10 @@ button {
 
 button:active {
   background-color: #00ffef
+}
+
+a {
+  color: #00008b
 }
 
 /*Background colors (hover and normal)*/
@@ -225,18 +228,13 @@ button:active {
   color: #c0c0c0!important
 }
 
-/*Should override color*/
-a {
-  color: #00008b
-}
-
+/*Containers*/
 .wc-container {
   padding-left: 15px;
   padding-right: 15px;
   display: block
 }
 
-/*Containers*/
 .wc-separate {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -254,7 +252,7 @@ a {
 
 /*Text size*/
 .wc-text-x-small {
-  font-size: .8em
+  font-size: 0.8em
 }
 
 .wc-text-small {
@@ -300,9 +298,7 @@ a {
 }
 
 .wc-center {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, -50%)
+  margin: auto
 }
 
 /*Shapes*/
@@ -352,32 +348,36 @@ a {
 }
 
 /*Responsive width*/
-.wc-half,
-.wc-third,
-.wc-two-third,
-.wc-three-quarter,
-.wc-quarter {
-  float: left;
-  width: 100%
+.wc-width-full,
+.wc-width-half,
+.wc-width-third,
+.wc-width-two-third,
+.wc-width-three-quarter,
+.wc-width-quarter {
+  float: left
 }
 
-.wc-half {
+.wc-width-full {
   width: 49.99999%
 }
 
-.wc-third {
+.wc-width-half {
+  width: 49.99999%
+}
+
+.wc-width-third {
   width: 33.33333%
 }
 
-.wc-two-third {
+.wc-width-two-third {
   width: 66.66666%
 }
 
-.wc-quarter {
+.wc-width-quarter {
   width: 24.99999%
 }
 
-.wc-three-quarter {
+.wc-width-three-quarter {
   width: 74.99999%
 }
 
@@ -410,8 +410,8 @@ a {
   height: 74.99999%
 }
 
-/*Border styles*/
-.wc-border {
+/*Border positions*/
+.wc-border, td, th {
   border: 1px solid #000!important
 }
 
@@ -449,6 +449,63 @@ a {
 
 .wc-border-right-thick {
   border-right: 5px solid #000!important
+}
+
+/*Border styles*/
+.wc-border-dashed {
+  border-style: dashed!important
+}
+
+.wc-border-dotted {
+  border-style: dotted!important
+}
+
+.wc-border-ridge {
+  border-style: ridge!important
+}
+
+.wc-border-solid {
+  border-style: solid!important
+}
+
+.wc-border-groove {
+  border-style: groove!important
+}
+
+.wc-border-inherit {
+  border-style: inherit!important
+}
+
+.wc-border-dashed {
+  border-style: dashed!important
+}
+
+.wc-border-outset {
+  border-style: outset!important
+}
+
+.wc-border-double {
+  border-style: double!important
+}
+
+.wc-border-inset {
+  border-style: inset!important
+}
+
+.wc-border-hidden {
+  border-style: hidden!important
+}
+
+.wc-border-none {
+  border-style: none!important
+}
+
+.wc-border-initial {
+  border-style: initial!important
+}
+
+.wc-border-collapse, table {
+  border-collapse: collapse;
 }
 
 /*Border colors*/
