@@ -28,22 +28,9 @@ th {
   padding: 5px
 }
 
-th {
-  background-color: #808080
-}
-
 button {
-  border: 1px solid #000;
   border-radius: 1px;
   cursor: pointer
-}
-
-button:active {
-  background-color: #00ffef
-}
-
-a {
-  color: #00008b
 }
 
 /*Background colors (hover and normal)*/
@@ -90,7 +77,8 @@ a {
 }
 
 .wc-aqua,
-.wc-hover-aqua:hover {
+.wc-hover-aqua:hover,
+button:active {
   background-color: #0ff!important;
   color: #000!important
 }
@@ -134,7 +122,8 @@ a {
 .wc-grey,
 .wc-gray,
 .wc-hover-grey:hover,
-.wc-hover-gray:hover {
+.wc-hover-gray:hover,
+th {
   background-color: #808080!important;
   color: #fff!important
 }
@@ -148,7 +137,8 @@ th {
 
 /*Text color (hover and normal)*/
 .wc-text-blue,
-.wc-hover-text-blue:hover {
+.wc-hover-text-blue:hover,
+a {
   color: #00f!important
 }
 
@@ -417,7 +407,10 @@ th {
 }
 
 /*Border positions*/
-.wc-border, td, th {
+.wc-border,
+button,
+td,
+th, {
   border: 1px solid #000!important
 }
 
