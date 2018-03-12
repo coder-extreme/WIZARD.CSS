@@ -607,6 +607,30 @@ th, {
   cursor: not-allowed
 }
 
-.wc-cursor-loading {
+.wc-cursor-busy {
   cursor: wait
+}
+
+.wc-cursor-help {
+  cursor: help
+}
+
+.wc-cursor-text {
+  cursor: text
+}
+
+.wc-cursor-loading {
+  cursor: progress
+}
+
+.wc-cursor-none {
+  cursor: none
+}
+
+.wc-cursor-zoom-in {
+  cursor: zoom-in
+}
+
+.wc-cursor-zoom-out {
+  cursor: zoom-out
 }
