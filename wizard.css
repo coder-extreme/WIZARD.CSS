@@ -607,7 +607,7 @@ th, {
   cursor: not-allowed!important
 }
 
-.wc-cursor-busy {
+.wc-cursor-wait {
   cursor: wait!important
 }
 
@@ -615,7 +615,7 @@ th, {
   cursor: text!important
 }
 
-.wc-cursor-loading {
+.wc-cursor-progress {
   cursor: progress!important
 }
 
@@ -651,7 +651,7 @@ th, {
   cursor: cell!important
 }
 
-.wc-cursor-col-resize {
+.wc-cursor-resize-col {
   cursor: col-resize!important
 }
 
@@ -681,4 +681,12 @@ th, {
 
 .wc-cursor-move {
   cursor: move!important
+}
+
+.wc-cursor-resize-row {
+  cursor: move!important
+}
+
+.wc-cursor-text-vertical {
+  cursor: vertical-text!important
 }
