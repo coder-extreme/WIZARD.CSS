@@ -592,45 +592,45 @@ th, {
 
 /*Cursors*/
 .wc-cursor {
-  cursor: default
+  cursor: default!important
 }
 
 .wc-cursor-pointer {
-  cursor: pointer
+  cursor: pointer!important
 }
 
 .wc-cursor-crosshair {
-  cursor: crosshair
+  cursor: crosshair!important
 }
 
 .wc-cursor-deny {
-  cursor: not-allowed
+  cursor: not-allowed!important
 }
 
 .wc-cursor-busy {
-  cursor: wait
-}
-
-.wc-cursor-help {
-  cursor: help
+  cursor: wait!important
 }
 
 .wc-cursor-text {
-  cursor: text
+  cursor: text!important
 }
 
 .wc-cursor-loading {
-  cursor: progress
+  cursor: progress!important
 }
 
 .wc-cursor-none {
-  cursor: none
+  cursor: none!important
 }
 
 .wc-cursor-zoom-in {
-  cursor: zoom-in
+  cursor: zoom-in!important
 }
 
 .wc-cursor-zoom-out {
-  cursor: zoom-out
+  cursor: zoom-out!important
+}
+
+.wc-cursor-help {
+  cursor: help!important
 }
