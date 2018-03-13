@@ -134,6 +134,13 @@ th {
   color: #000!important
 }
 
+.wc-white,
+.wc-hover-white:hover,
+th {
+  background-color: #fff!important;
+  color: #000!important
+}
+
 /*Text color (hover and normal)*/
 .wc-text-blue,
 .wc-hover-text-blue:hover,
@@ -218,6 +225,11 @@ a {
   color: #c0c0c0!important
 }
 
+.wc-text-white,
+.wc-hover-text-white:hover {
+  color: #fff!important
+}
+
 /*Containers*/
 .wc-container {
   padding-left: 15px;
@@ -242,23 +254,23 @@ a {
 
 /*Text size*/
 .wc-text-x-small {
-  font-size: 0.8em
+  font-size: 0.5em
 }
 
 .wc-text-small {
-  font-size: 1em
+  font-size: 0.8em
 }
 
-.wc-text-medium {
+.wc-text {
   font-size: 1.1em
 }
 
 .wc-text-large {
-  font-size: 1.7em
+  font-size: 2em
 }
 
 .wc-text-x-large {
-  font-size: 2.5em
+  font-size: 3em
 }
 
 /*Text align*/
@@ -407,102 +419,122 @@ a {
 
 /*Border positions*/
 .wc-border,
+.wc-hover-border,
 button,
 td,
 th, {
   border: 1px solid #000!important
 }
 
-.wc-border-top {
+.wc-border-top,
+.wc-hover-border-top {
   border-top: 1px solid #000!important
 }
 
-.wc-border-bottom {
+.wc-border-bottom,
+.wc-hover-border-bottom {
   border-bottom: 1px solid #000!important
 }
 
-.wc-border-left {
+.wc-border-left,
+.wc-hover-border-left {
   border-left: 1px solid #000!important
 }
 
-.wc-border-right {
+.wc-border-right,
+.wc-hover-border-right {
   border-right: 1px solid #000!important
 }
 
-.wc-border-thick {
+.wc-border-thick,
+.wc-hover-border-thick {
   border: 5px solid #000!important
 }
 
-.wc-border-top-thick {
+.wc-border-top-thick,
+.wc-hover-border-top-thick {
   border-top: 5px solid #000!important
 }
 
-.wc-border-bottom-thick {
+.wc-border-bottom-thick,
+.wc-hover-border-bottom-thick {
   border-bottom: 5px solid #000!important
 }
 
-.wc-border-left-thick {
+.wc-border-left-thick,
+.wc-hover-border-left-thick {
   border-left: 5px solid #000!important
 }
 
-.wc-border-right-thick {
+.wc-border-right-thick,
+.wc-hover-border-left-thick {
   border-right: 5px solid #000!important
 }
 
 /*Border styles*/
-.wc-border-dashed {
+.wc-border-dashed,
+.wc-hover-border-dashed {
   border-style: dashed!important
 }
 
-.wc-border-dotted {
+.wc-border-dotted,
+.wc-hover-border-dotted {
   border-style: dotted!important
 }
 
-.wc-border-ridge {
+.wc-border-ridge,
+.wc-hover-border-ridge {
   border-style: ridge!important
 }
 
-.wc-border-solid {
+.wc-border-solid,
+.wc-hover-border-solid {
   border-style: solid!important
 }
 
-.wc-border-groove {
+.wc-border-groove,
+.wc-hover-border-groove {
   border-style: groove!important
 }
 
-.wc-border-inherit {
+.wc-border-inherit,
+.wc-hover-border-inherit {
   border-style: inherit!important
 }
 
-.wc-border-dashed {
-  border-style: dashed!important
-}
-
-.wc-border-outset {
+.wc-border-outset,
+.wc-hover-border-outset {
   border-style: outset!important
 }
 
-.wc-border-double {
+.wc-border-double,
+.wc-hover-border-double {
   border-style: double!important
 }
 
-.wc-border-inset {
+.wc-border-inset,
+.wc-hover-border-inset {
   border-style: inset!important
 }
 
-.wc-border-hidden {
+.wc-border-hidden,
+.wc-hover-border-hidden {
   border-style: hidden!important
 }
 
-.wc-border-none {
+.wc-border-none,
+.wc-hover-border-none {
   border-style: none!important
 }
 
-.wc-border-initial {
+.wc-border-initial,
+.wc-hover-border-initial {
   border-style: initial!important
 }
 
-.wc-border-collapse, table {
+.wc-border-collapse,
+.wc-hover-border-collapse,
+table {
   border-collapse: collapse;
 }
 
@@ -587,6 +619,11 @@ th, {
 .wc-border-silver,
 .wc-hover-border-silver:hover {
   border-color: #c0c0c0!important
+}
+
+.wc-border-white,
+.wc-hover-border-white:hover {
+  border-color: #fff!important
 }
 
 /*Cursors*/
