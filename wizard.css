@@ -134,6 +134,13 @@ th {
   color: #000!important
 }
 
+.wc-white,
+.wc-hover-white:hover,
+th {
+  background-color: #fff!important;
+  color: #000!important
+}
+
 /*Text color (hover and normal)*/
 .wc-text-blue,
 .wc-hover-text-blue:hover,
@@ -216,6 +223,11 @@ a {
 .wc-text-silver,
 .wc-hover-text-silver:hover {
   color: #c0c0c0!important
+}
+
+.wc-text-white,
+.wc-hover-text-white:hover {
+  color: #fff!important
 }
 
 /*Containers*/
@@ -450,59 +462,69 @@ th, {
 }
 
 /*Border styles*/
-.wc-border-dashed {
+.wc-border-dashed,
+.wc-hover-border-dashed {
   border-style: dashed!important
 }
 
-.wc-border-dotted {
+.wc-border-dotted,
+.wc-hover-border-dotted {
   border-style: dotted!important
 }
 
-.wc-border-ridge {
+.wc-border-ridge,
+.wc-hover-border-ridge {
   border-style: ridge!important
 }
 
-.wc-border-solid {
+.wc-border-solid,
+.wc-hover-border-solid {
   border-style: solid!important
 }
 
-.wc-border-groove {
+.wc-border-groove,
+.wc-hover-border-groove {
   border-style: groove!important
 }
 
-.wc-border-inherit {
+.wc-border-inherit,
+.wc-hover-border-inherit {
   border-style: inherit!important
 }
 
-.wc-border-dashed {
-  border-style: dashed!important
-}
-
-.wc-border-outset {
+.wc-border-outset,
+.wc-hover-border-outset {
   border-style: outset!important
 }
 
-.wc-border-double {
+.wc-border-double,
+.wc-hover-border-double {
   border-style: double!important
 }
 
-.wc-border-inset {
+.wc-border-inset,
+.wc-hover-border-inset {
   border-style: inset!important
 }
 
-.wc-border-hidden {
+.wc-border-hidden,
+.wc-hover-border-hidden {
   border-style: hidden!important
 }
 
-.wc-border-none {
+.wc-border-none,
+.wc-hover-border-none {
   border-style: none!important
 }
 
-.wc-border-initial {
+.wc-border-initial,
+.wc-hover-border-initial {
   border-style: initial!important
 }
 
-.wc-border-collapse, table {
+.wc-border-collapse,
+.wc-hover-border-collapse,
+table {
   border-collapse: collapse;
 }
 
@@ -587,6 +609,11 @@ th, {
 .wc-border-silver,
 .wc-hover-border-silver:hover {
   border-color: #c0c0c0!important
+}
+
+.wc-border-white,
+.wc-hover-border-white:hover {
+  border-color: #fff!important
 }
 
 /*Cursors*/
