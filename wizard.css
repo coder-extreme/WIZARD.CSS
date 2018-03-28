@@ -286,6 +286,35 @@ a {
   text-align: center
 }
 
+/*Text transform*/
+.wc-text-uppercase {
+  text-transform: uppercase
+}
+
+.wc-text-lowercase {
+  text-transform: lowercase
+}
+
+.wc-text-capitalize {
+  text-transform: capitalize
+}
+
+.wc-text-none {
+  text-transform: none
+}
+
+.wc-text-inherit {
+  text-transform: inherit
+}
+
+.wc-text-initial {
+  text-transform: initial
+}
+
+.wc-text-unset {
+  text-transform: unset
+}
+
 /*Align*/
 .wc-right {
   float: right;
