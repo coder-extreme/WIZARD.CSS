@@ -315,6 +315,19 @@ a {
   text-transform: unset
 }
 
+/*Text styles*/
+.wc-text-bold {
+  font-weight: bold;
+}
+
+.wc-text-italic {
+  font-style: italic;
+}
+
+.wc-text-underline {
+  text-decoration: underline
+}
+
 /*Align*/
 .wc-right {
   float: right;
