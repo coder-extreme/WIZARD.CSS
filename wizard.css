@@ -9,7 +9,6 @@ Permission is granted to use this file for any non-commercial purposes as long a
 }
 
 body {
-  margin: 0;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #000;
   font-size: 1.1em
@@ -223,14 +222,11 @@ a {
 }
 
 .wc-separate {
-  margin-top: 15px;
-  margin-bottom: 15px;
   display: block
 }
 
 .wc-section {
   box-shadow: 15px 15px 40px grey;
-  margin: 15px;
   padding-top: 1px;
   border: 1px solid #000
 }
@@ -315,12 +311,10 @@ a {
 /*Align*/
 .wc-right {
   float: right;
-  margin: 10px;
 }
 
 .wc-left {
   float: left;
-  margin: 10px;
 }
 
 .wc-center {
@@ -1039,7 +1033,8 @@ th {
   margin: 7px
 }
 
-.wc-margin-0 {
+.wc-margin-0,
+body {
   margin: 0
 }
 
@@ -1051,8 +1046,7 @@ th {
 
 .wc-margin-10,
 .wc-right,
-.wc-left,
-.wc-center {
+.wc-left {
   margin: 10px
 }
 
@@ -1106,7 +1100,8 @@ th {
   margin-top: 10px
 }
 
-.wc-margin-top-15 {
+.wc-margin-top-15,
+.wc-separate {
   margin-top: 15px
 }
 
@@ -1155,7 +1150,8 @@ th {
   margin-bottom: 10px
 }
 
-.wc-margin-bottom-15 {
+.wc-margin-bottom-15,
+.wc-separate {
   margin-bottom: 15px
 }
 
@@ -1204,8 +1200,7 @@ th {
   margin-left: 10px
 }
 
-.wc-margin-left-15,
-.wc-container {
+.wc-margin-left-15 {
   margin-left: 15px
 }
 
@@ -1254,8 +1249,7 @@ th {
   margin-right: 10px
 }
 
-.wc-margin-right-15,
-.wc-container {
+.wc-margin-right-15 {
   margin-right: 15px
 }
 
