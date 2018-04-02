@@ -233,15 +233,15 @@ a {
 
 /*Fonts*/
 .wc-text-serif {
-  font-family: serif
+  font-family: serif!important
 }
 
 .wc-text-sans-serif {
-  font-family: sans-serif
+  font-family: sans-serif!important
 }
 
 .wc-sans-monospace {
-  font-family: monospace
+  font-family: monospace!important
 }
 
 /*Text size*/
@@ -271,15 +271,15 @@ a {
 
 /*Text align*/
 .wc-text-right {
-  text-align: right
+  text-align: right!important
 }
 
 .wc-text-left {
-  text-align: left
+  text-align: left!important
 }
 
 .wc-text-center {
-  text-align: center
+  text-align: center!important
 }
 
 /*Text transform*/
@@ -399,27 +399,27 @@ a {
 }
 
 .wc-width-full {
-  width: 50%
+  width: 100%!important
 }
 
 .wc-width-half {
-  width: 45%
+  width: 50%!important
 }
 
 .wc-width-third {
-  width: 33.33333%
+  width: 33.33333%!important
 }
 
 .wc-width-two-third {
-  width: 66.66666%
+  width: 66.66666%!important
 }
 
 .wc-width-quarter {
-  width: 25%
+  width: 25%!important
 }
 
 .wc-width-three-quarter {
-  width: 75%
+  width: 75%!important
 }
 
 /*Responsive height*/
@@ -765,35 +765,35 @@ button {
 
 /*Positioning*/
 .wc-position-absolute {
-  position: absolute
+  position: absolute!important
 }
 
 .wc-position-fixed {
-  position: fixed
+  position: fixed!important
 }
 
 .wc-position-relative {
-  position: relative
+  position: relative!important
 }
 
 .wc-position-static {
-  position: static
+  position: static!important
 }
 
 .wc-position-sticky {
-  position: sticky
+  position: sticky!important
 }
 
 .wc-position-inherit {
-  position: inherit
+  position: inherit!important
 }
 
 .wc-position-initial {
-  position: initial
+  position: initial!important
 }
 
 .wc-position-unset {
-  position: unset
+  position: unset!important
 }
 
 /*Padding*/
@@ -857,7 +857,7 @@ th {
 }
 
 .wc-padding-top-0 {
-  padding-top: 0
+  padding-top: 0!important
 }
 
 .wc-padding-top-5 {
@@ -1056,7 +1056,7 @@ th {
 
 .wc-margin-0,
 body {
-  margin: 0
+  margin: 0!important
 }
 
 .wc-margin-5
