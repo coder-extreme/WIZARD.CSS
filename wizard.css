@@ -765,3 +765,36 @@ button {
 .wc-cursor-text-vertical {
   cursor: vertical-text!important
 }
+
+/*Positioning*/
+.wc-position-absolute {
+  position: absolute
+}
+
+.wc-position-fixed {
+  position: fixed
+}
+
+.wc-position-relative {
+  position: relative
+}
+
+.wc-position-static {
+  position: static
+}
+
+.wc-position-sticky {
+  position: sticky
+}
+
+.wc-position-inherit {
+  position: inherit
+}
+
+.wc-position-initial {
+  position: initial
+}
+
+.wc-position-unset {
+  position: unset
+}
