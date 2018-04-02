@@ -15,11 +15,6 @@ body {
   font-size: 1.1em
 }
 
-td,
-th {
-  padding: 5px
-}
-
 button {
   border-radius: 1px
 }
@@ -224,8 +219,6 @@ a {
 
 /*Containers*/
 .wc-container {
-  padding-left: 15px;
-  padding-right: 15px;
   display: block
 }
 
@@ -238,7 +231,6 @@ a {
 .wc-section {
   box-shadow: 15px 15px 40px grey;
   margin: 15px;
-  padding: 15px;
   padding-top: 1px;
   border: 1px solid #000
 }
@@ -278,17 +270,57 @@ a {
   text-align: center
 }
 
+/*Text transform*/
+.wc-text-uppercase {
+  text-transform: uppercase
+}
+
+.wc-text-lowercase {
+  text-transform: lowercase
+}
+
+.wc-text-capitalize {
+  text-transform: capitalize
+}
+
+.wc-text-none {
+  text-transform: none
+}
+
+.wc-text-inherit {
+  text-transform: inherit
+}
+
+.wc-text-initial {
+  text-transform: initial
+}
+
+.wc-text-unset {
+  text-transform: unset
+}
+
+/*Text styles*/
+.wc-text-bold {
+  font-weight: bold;
+}
+
+.wc-text-italic {
+  font-style: italic;
+}
+
+.wc-text-underline {
+  text-decoration: underline
+}
+
 /*Align*/
 .wc-right {
   float: right;
   margin: 10px;
-  padding: 10px
 }
 
 .wc-left {
   float: left;
   margin: 10px;
-  padding: 10px
 }
 
 .wc-center {
@@ -714,4 +746,543 @@ button {
 
 .wc-cursor-text-vertical {
   cursor: vertical-text!important
+}
+
+/*Positioning*/
+.wc-position-absolute {
+  position: absolute
+}
+
+.wc-position-fixed {
+  position: fixed
+}
+
+.wc-position-relative {
+  position: relative
+}
+
+.wc-position-static {
+  position: static
+}
+
+.wc-position-sticky {
+  position: sticky
+}
+
+.wc-position-inherit {
+  position: inherit
+}
+
+.wc-position-initial {
+  position: initial
+}
+
+.wc-position-unset {
+  position: unset
+}
+
+/*Padding*/
+.wc-padding {
+  padding: 7px
+}
+
+.wc-padding-0 {
+  padding: 0
+}
+
+.wc-padding-5
+td,
+th {
+  padding: 5px
+}
+
+.wc-padding-10,
+.wc-right,
+.wc-left,
+.wc-center {
+  padding: 10px
+}
+
+.wc-padding-15,
+.wc-section {
+  padding: 15px
+}
+
+.wc-padding-20 {
+  padding: 20px
+}
+
+.wc-padding-25 {
+  padding: 25px
+}
+
+.wc-padding-30 {
+  padding: 30px
+}
+
+.wc-padding-35 {
+  padding: 35px
+}
+
+.wc-padding-40 {
+  padding: 40px
+}
+
+.wc-padding-45 {
+  padding: 45px
+}
+
+.wc-padding-50 {
+  padding: 50px
+}
+
+/*Padding top*/
+.wc-padding-top {
+  padding-top: 7px
+}
+
+.wc-padding-top-0 {
+  padding-top: 0
+}
+
+.wc-padding-top-5 {
+  padding-top: 5px
+}
+
+.wc-padding-top-10 {
+  padding-top: 10px
+}
+
+.wc-padding-top-15 {
+  padding-top: 15px
+}
+
+.wc-padding-top-20 {
+  padding-top: 20px
+}
+
+.wc-padding-top-25 {
+  padding-top: 25px
+}
+
+.wc-padding-top-30 {
+  padding-top: 30px
+}
+
+.wc-padding-top-35 {
+  padding-top: 35px
+}
+
+.wc-padding-top-40 {
+  padding-top: 40px
+}
+
+.wc-padding-top-45 {
+  padding-top: 45px
+}
+
+.wc-padding-top-50 {
+  padding-top: 50px
+}
+
+/*Padding bottom*/
+.wc-padding-bottom {
+  padding-bottom: 7px
+}
+
+.wc-padding-bottom-0 {
+  padding-bottom: 0
+}
+
+.wc-padding-bottom-5 {
+  padding-bottom: 5px
+}
+
+.wc-padding-bottom-10 {
+  padding-bottom: 10px
+}
+
+.wc-padding-bottom-15 {
+  padding-bottom: 15px
+}
+
+.wc-padding-bottom-20 {
+  padding-bottom: 20px
+}
+
+.wc-padding-bottom-25 {
+  padding-bottom: 25px
+}
+
+.wc-padding-bottom-30 {
+  padding-bottom: 30px
+}
+
+.wc-padding-bottom-35 {
+  padding-bottom: 35px
+}
+
+.wc-padding-bottom-40 {
+  padding-bottom: 40px
+}
+
+.wc-padding-bottom-45 {
+  padding-bottom: 45px
+}
+
+.wc-padding-bottom-50 {
+  padding-bottom: 50px
+}
+
+/*Padding left*/
+.wc-padding-left {
+  padding-left: 7px
+}
+
+.wc-padding-left-0 {
+  padding-left: 0
+}
+
+.wc-padding-left-5 {
+  padding-left: 5px
+}
+
+.wc-padding-left-10 {
+  padding-left: 10px
+}
+
+.wc-padding-left-15,
+.wc-container {
+  padding-left: 15px
+}
+
+.wc-padding-left-20 {
+  padding-left: 20px
+}
+
+.wc-padding-left-25 {
+  padding-left: 25px
+}
+
+.wc-padding-left-30 {
+  padding-left: 30px
+}
+
+.wc-padding-left-35 {
+  padding-left: 35px
+}
+
+.wc-padding-left-40 {
+  padding-left: 40px
+}
+
+.wc-padding-left-45 {
+  padding-left: 45px
+}
+
+.wc-padding-left-50 {
+  padding-left: 50px
+}
+
+/*Padding right*/
+.wc-padding-right {
+  padding-right: 7px
+}
+
+.wc-padding-right-0 {
+  padding-right: 0
+}
+
+.wc-padding-right-5, {
+  padding-right: 5px
+}
+
+.wc-padding-right-10 {
+  padding-right: 10px
+}
+
+.wc-padding-right-15,
+.wc-container {
+  padding-right: 15px
+}
+
+.wc-padding-right-20 {
+  padding-right: 20px
+}
+
+.wc-padding-right-25 {
+  padding-right: 25px
+}
+
+.wc-padding-right-30 {
+  padding-right: 30px
+}
+
+.wc-padding-right-35 {
+  padding-right: 35px
+}
+
+.wc-padding-right-40 {
+  padding-right: 40px
+}
+
+.wc-padding-right-45 {
+  padding-right: 45px
+}
+
+.wc-padding-right-50 {
+  padding-right: 50px
+}
+
+/*Margin*/
+.wc-margin {
+  margin: 7px
+}
+
+.wc-margin-0 {
+  margin: 0
+}
+
+.wc-margin-5
+td,
+th {
+  margin: 5px
+}
+
+.wc-margin-10,
+.wc-right,
+.wc-left,
+.wc-center {
+  margin: 10px
+}
+
+.wc-margin-15,
+.wc-section {
+  margin: 15px
+}
+
+.wc-margin-20 {
+  margin: 20px
+}
+
+.wc-margin-25 {
+  margin: 25px
+}
+
+.wc-margin-30 {
+  margin: 30px
+}
+
+.wc-margin-35 {
+  margin: 35px
+}
+
+.wc-margin-40 {
+  margin: 40px
+}
+
+.wc-margin-45 {
+  margin: 45px
+}
+
+.wc-margin-50 {
+  margin: 50px
+}
+
+/*Margin top*/
+.wc-margin-top {
+  margin-top: 7px
+}
+
+.wc-margin-top-0 {
+  margin-top: 0
+}
+
+.wc-margin-top-5 {
+  margin-top: 5px
+}
+
+.wc-margin-top-10 {
+  margin-top: 10px
+}
+
+.wc-margin-top-15 {
+  margin-top: 15px
+}
+
+.wc-margin-top-20 {
+  margin-top: 20px
+}
+
+.wc-margin-top-25 {
+  margin-top: 25px
+}
+
+.wc-margin-top-30 {
+  margin-top: 30px
+}
+
+.wc-margin-top-35 {
+  margin-top: 35px
+}
+
+.wc-margin-top-40 {
+  margin-top: 40px
+}
+
+.wc-margin-top-45 {
+  margin-top: 45px
+}
+
+.wc-margin-top-50 {
+  margin-top: 50px
+}
+
+/*Margin bottom*/
+.wc-margin-bottom {
+  margin-bottom: 7px
+}
+
+.wc-margin-bottom-0 {
+  margin-bottom: 0
+}
+
+.wc-margin-bottom-5 {
+  margin-bottom: 5px
+}
+
+.wc-margin-bottom-10 {
+  margin-bottom: 10px
+}
+
+.wc-margin-bottom-15 {
+  margin-bottom: 15px
+}
+
+.wc-margin-bottom-20 {
+  margin-bottom: 20px
+}
+
+.wc-margin-bottom-25 {
+  margin-bottom: 25px
+}
+
+.wc-margin-bottom-30 {
+  margin-bottom: 30px
+}
+
+.wc-margin-bottom-35 {
+  margin-bottom: 35px
+}
+
+.wc-margin-bottom-40 {
+  margin-bottom: 40px
+}
+
+.wc-margin-bottom-45 {
+  margin-bottom: 45px
+}
+
+.wc-margin-bottom-50 {
+  margin-bottom: 50px
+}
+
+/*Margin left*/
+.wc-margin-left {
+  margin-left: 7px
+}
+
+.wc-margin-left-0 {
+  margin-left: 0
+}
+
+.wc-margin-left-5 {
+  margin-left: 5px
+}
+
+.wc-margin-left-10 {
+  margin-left: 10px
+}
+
+.wc-margin-left-15,
+.wc-container {
+  margin-left: 15px
+}
+
+.wc-margin-left-20 {
+  margin-left: 20px
+}
+
+.wc-margin-left-25 {
+  margin-left: 25px
+}
+
+.wc-margin-left-30 {
+  margin-left: 30px
+}
+
+.wc-margin-left-35 {
+  margin-left: 35px
+}
+
+.wc-margin-left-40 {
+  margin-left: 40px
+}
+
+.wc-margin-left-45 {
+  margin-left: 45px
+}
+
+.wc-margin-left-50 {
+  margin-left: 50px
+}
+
+/*Margin right*/
+.wc-margin-right {
+  margin-right: 7px
+}
+
+.wc-margin-right-0 {
+  margin-right: 0
+}
+
+.wc-margin-right-5, {
+  margin-right: 5px
+}
+
+.wc-margin-right-10 {
+  margin-right: 10px
+}
+
+.wc-margin-right-15,
+.wc-container {
+  margin-right: 15px
+}
+
+.wc-margin-right-20 {
+  margin-right: 20px
+}
+
+.wc-margin-right-25 {
+  margin-right: 25px
+}
+
+.wc-margin-right-30 {
+  margin-right: 30px
+}
+
+.wc-margin-right-35 {
+  margin-right: 35px
+}
+
+.wc-margin-right-40 {
+  margin-right: 40px
+}
+
+.wc-margin-right-45 {
+  margin-right: 45px
+}
+
+.wc-margin-right-50 {
+  margin-right: 50px
 }
