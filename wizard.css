@@ -1,5 +1,6 @@
 /*
-All rights to this file are held by wizard.duti.site.
+All rights to this file are held by Wizard Tools.
+For more information, please visit https://wizard.duti.site/
 Permission is granted to use this file for any non-commercial purposes as long as the use is in no way harmful to Wizard tools or WIZARD.CSS.
 */
 
@@ -217,18 +218,14 @@ a {
 }
 
 /*Containers*/
-.wc-container {
-  display: block
-}
-
+.wc-container,
 .wc-separate {
   display: block
 }
 
 .wc-section {
-  box-shadow: 15px 15px 40px grey;
+  box-shadow: 15px 15px 40px #47484a;
   padding-top: 1px;
-  border: 1px solid #000
 }
 
 /*Fonts*/
@@ -461,7 +458,8 @@ a {
 .wc-hover-border,
 button,
 td,
-th, {
+th,
+.wc-section {
   border: 1px solid #000!important
 }
 
