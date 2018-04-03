@@ -21,75 +21,75 @@ button {
 /*Background colors (hover and normal)*/
 .wc-blue,
 .wc-hover-blue:hover {
-  background-color: #00f!important;
+  background-color: #0073ad!important;
   color: #fff!important
 }
 
 .wc-red,
 .wc-hover-red:hover {
-  background-color: #f00!important;
+  background-color: #d92121!important;
   color: #000!important
 }
 
 .wc-green,
 .wc-hover-green:hover {
-  background-color: #008000!important;
+  background-color: #18622d!important;
   color: #fff!important
 }
 
 .wc-yellow,
 .wc-hover-yellow:hover {
-  background-color: #ff0!important;
-  color: #000!important
+  background-color: #ffc40d!important;
+  color: #fff!important
 }
 
 .wc-orange,
 .wc-hover-orange:hover {
-  background-color: #ffa500!important;
-  color: #000!important
+  background-color: #f8a300!important;
+  color: #fff!important
 }
 
 .wc-pink,
 .wc-hover-pink:hover {
-  background-color: #ffc0cb!important;
-  color: #000!important
+  background-color: #bc70a4!important;
+  color: #fff!important
 }
 
 .wc-midnight,
 .wc-hover-midnight:hover {
-  background-color: #191970!important;
+  background-color: #1f263b!important;
   color: #fff!important
 }
 
 .wc-aqua,
 .wc-hover-aqua:hover,
 button:active {
-  background-color: #0ff!important;
-  color: #000!important
+  background-color: #00aba9!important;
+  color: #fff!important
 }
 
 .wc-greenapple,
 .wc-hover-greenapple:hover {
-  background-color: #00ff00!important;
+  background-color: #66b348!important;
   color: #000!important
 }
 
 .wc-indigo,
 .wc-hover-indigo:hover {
-  background-color: #4b0082!important;
+  background-color: #5b3e90!important;
   color: #fff!important
 }
 
 .wc-purple,
 .wc-hover-purple:hover {
-  background-color: #800080!important;
+  background-color: #994680!important;
   color: #fff!important
 }
 
 .wc-tan,
 .wc-hover-tan:hover {
-  background-color: #d2b48c!important;
-  color: #000!important
+  background-color: #a98652!important;
+  color: #fff!important
 }
 
 .wc-black,
@@ -109,7 +109,7 @@ button:active {
 .wc-hover-grey:hover,
 .wc-hover-gray:hover,
 th {
-  background-color: #808080!important;
+  background-color: #47484a!important;
   color: #fff!important
 }
 
@@ -131,22 +131,22 @@ th {
 .wc-text-blue,
 .wc-hover-text-blue:hover,
 a {
-  color: #00f!important
+  color: #0073ad!important
 }
 
 .wc-text-red,
 .wc-hover-text-red:hover {
-  color: #f00!important
+  color: #d92121!important
 }
 
 .wc-text-green,
 .wc-hover-text-green:hover {
-  color: #008000!important
+  color: #18622d!important
 }
 
 .wc-text-yellow,
 .wc-hover-text-yellow:hover {
-  color: #ff0!important
+  color: #ffc40d!important
 }
 
 .wc-text-orange,
@@ -161,32 +161,32 @@ a {
 
 .wc-text-midnight,
 .wc-hover-text-midnight:hover {
-  color: #191970!important
+  color: #1f263b!important
 }
 
 .wc-text-aqua,
 .wc-hover-text-aqua:hover {
-  color: #0ff!important
+  color: #00aba9!important
 }
 
 .wc-text-greenapple,
 .wc-hover-text-greenapple:hover {
-  color: #0f0!important
+  color: #66b348!important
 }
 
 .wc-text-indigo,
 .wc-hover-text-indigo:hover {
-  color: #4b0082!important
+  color: #5b3e90!important
 }
 
 .wc-text-purple,
 .wc-hover-text-purple:hover {
-  color: #800080!important
+  color: #994680!important
 }
 
 .wc-text-tan,
 .wc-hover-text-tan:hover {
-  color: #d2b48c!important
+  color: #a98652!important
 }
 
 .wc-text-black,
@@ -580,22 +580,22 @@ table {
 /*Border colors*/
 .wc-border-blue,
 .wc-hover-border-blue:hover {
-  border-color: #00f!important
+  border-color: #0073ad!important
 }
 
 .wc-border-red,
 .wc-hover-border-red:hover {
-  border-color: #f00!important
+  border-color: #d92121!important
 }
 
 .wc-border-green,
 .wc-hover-border-green:hover {
-  border-color: #008000!important
+  border-color: #18622d!important
 }
 
 .wc-border-yellow,
 .wc-hover-border-yellow:hover {
-  border-color: #ff0!important
+  border-color: #ffc40d!important
 }
 
 .wc-border-orange,
@@ -610,32 +610,32 @@ table {
 
 .wc-border-midnight,
 .wc-hover-border-midnight:hover {
-  border-color: #191970!important
+  border-color: #1f263b!important
 }
 
 .wc-border-aqua,
 .wc-hover-border-aqua:hover {
-  border-color: #0ff!important
+  border-color: #00aba9!important
 }
 
 .wc-border-greenapple,
 .wc-hover-border-greenapple:hover {
-  border-color: #0f0!important
+  border-color: #66b348!important
 }
 
 .wc-border-indigo,
 .wc-hover-border-indigo:hover {
-  border-color: #4b0082!important
+  border-color: #5b3e90!important
 }
 
 .wc-border-purple,
 .wc-hover-border-purple:hover {
-  border-color: #800080!important
+  border-color: #994680!important
 }
 
 .wc-border-tan,
 .wc-hover-border-tan:hover {
-  border-color: #d2b48c!important
+  border-color: #a98652!important
 }
 
 .wc-border-black,
