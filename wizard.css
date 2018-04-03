@@ -224,6 +224,7 @@ a {
 }
 
 .wc-section {
+  display: inline-block;
   box-shadow: 15px 15px 40px #47484a;
   padding-top: 1px;
 }
@@ -400,7 +401,7 @@ a {
 }
 
 .wc-width-half {
-  width: 50%!important
+  width: 49.9%!important
 }
 
 .wc-width-third {
@@ -412,11 +413,11 @@ a {
 }
 
 .wc-width-quarter {
-  width: 25%!important
+  width: 24.9%!important
 }
 
 .wc-width-three-quarter {
-  width: 75%!important
+  width: 74.9%!important
 }
 
 /*Responsive height*/
@@ -434,7 +435,7 @@ a {
 }
 
 .wc-col-half {
-  height: 50%
+  height: 49.9%
 }
 
 .wc-col-third {
@@ -446,11 +447,11 @@ a {
 }
 
 .wc-col-quarter {
-  height: 25%
+  height: 24.9%
 }
 
 .wc-col-three-quarter {
-  height: 75%
+  height: 74.9%
 }
 
 /*Border positions*/
@@ -1006,7 +1007,7 @@ th {
   padding-right: 0!important
 }
 
-.wc-padding-right-5, {
+.wc-padding-right-5 {
   padding-right: 5px!important
 }
 
@@ -1260,7 +1261,7 @@ th {
   margin-right: 0!important
 }
 
-.wc-margin-right-5, {
+.wc-margin-right-5 {
   margin-right: 5px!important
 }
 
