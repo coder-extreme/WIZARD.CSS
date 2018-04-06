@@ -335,7 +335,8 @@ a {
 }
 
 .wc-center {
-  margin: auto!important
+  left: 50%;
+  transform: translate(50%, 0%)
 }
 
 /*Shapes*/
@@ -381,7 +382,7 @@ a {
   background-color: #fff;
   padding: 8px 12px;
   word-wrap: break-word;
-  font: 15px Consolas, "courier new", monospace!important
+  font: 15px Consolas, 'courier new', monospace!important
 }
 
 /*Responsive width*/
@@ -802,7 +803,7 @@ button {
   padding: 0!important
 }
 
-.wc-padding-5
+.wc-padding-5,
 td,
 th {
   padding: 5px!important
@@ -1056,7 +1057,7 @@ body {
   margin: 0!important
 }
 
-.wc-margin-5
+.wc-margin-5,
 td,
 th {
   margin: 5px!important
