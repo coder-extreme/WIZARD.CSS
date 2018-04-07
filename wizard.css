@@ -307,6 +307,10 @@ a {
   text-transform: unset!important
 }
 
+.wc-text-small-caps {
+  font-variant: small-caps
+}
+
 /*Text styles*/
 .wc-text-bold {
   font-weight: bold!important
